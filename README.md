@@ -18,17 +18,6 @@ To install and run the project:
 1. Clone the repository
 2. Run `npm install` to install dependencies
 3. Run `npm run build` to build the project
-4. Start an HTTP server in the `/docs` directory
-
-You can use any HTTP server of your choice. For example, with `http-server`:
-
-```
-npm install -g http-server
-cd docs
-http-server
-```
-
-Then open your browser and navigate to `http://localhost:8080` (or whatever port your HTTP server is using).
 
 ### Types
 
@@ -61,7 +50,7 @@ This system is particularly useful for multiplayer games where precise synchroni
 ### Usage
 
 ```typescript
-import { new_mach, register_action, compute, Mach, Time } from 'state-machine';
+import { new_mach, register_action, compute, Mach, Game, Time } from 'state-machine';
 
 // Definition of State and Action types
 type State = { /* ... */ };
