@@ -4,7 +4,8 @@
   "description": "Game tick system",
   "main": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/UwU-Jogos/State-Machine/issues"
   },
-  "homepage": "https://github.com/UwU-Jogos/State-Machine#readme"
+  "homepage": "https://github.com/UwU-Jogos/State-Machine#readme",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
 }
