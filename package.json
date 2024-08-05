@@ -1,6 +1,6 @@
 {
-  "name": "uwu-state-machine",
-  "version": "0.0.2",
+  "name": "@uwu-games/uwu-state-machine",
+  "version": "0.0.3",
   "description": "Game tick system",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -31,5 +31,8 @@
   "homepage": "https://github.com/UwU-Jogos/State-Machine#readme",
   "devDependencies": {
     "typescript": "^5.5.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
